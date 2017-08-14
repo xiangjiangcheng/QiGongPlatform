@@ -1,0 +1,22 @@
+{
+    "name":             "QiGongPlatform",
+    "description":      "another demo website", 
+    "keywords":         ["QiGong", "Platform", "mvc"], 
+    "time":             "2017-07-24", 
+    "license":          "MIT", 
+    "authors": [{
+        "name":         "Xiang JiangCheng",
+        "email":        "jiangcheng.xiang@qq.com",
+        "role":         "Engineer"
+    }],
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:wenzhixin/bootstrap-table.git"
+	},
+    "require": {
+        "monolog/monolog": "1.0.*",
+		"predis/predis": "*",
+        "twbs/bootstrap": "^3.3",
+	    "wenzhixin/bootstrap-table":"dev-develop"
+    }
+}

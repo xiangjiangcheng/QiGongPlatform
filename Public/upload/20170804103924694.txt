@@ -1,0 +1,5 @@
+
+使用Output Control，取出缓冲区内容
+ob_start();
+include 'xxx';
+$content = ob_get_clean();﻿
